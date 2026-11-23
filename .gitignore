@@ -1,0 +1,9 @@
+data/
+*.csv
+*.json
+*.parquet
+*.zip
+
+venv/
+.venv/
+__pycache__/
