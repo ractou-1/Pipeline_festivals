@@ -20,7 +20,7 @@ pipeline_festivals/
 ├── main.py          # point d'entrée 
 ├── bronze.py        # ingest_bronze() pour la couche Bronze
 ├── silver.py        # transform_silver() pour la couche Silver
-├── (gold.py)        # build_gold() pour la couche Gold 
+├── gold.py        # build_gold() pour la couche Gold 
 └── data/
     ├── raw/         # billetterie.csv, evenements.json, lieux.csv
     ├── bronze/      # billetterie/, evenements/, lieux/
