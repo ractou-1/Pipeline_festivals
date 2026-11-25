@@ -99,7 +99,7 @@ def transform_silver(spark):
     lieux_ok.write.mode("overwrite").parquet("data/silver/lieux_nettoyes")
     evenements_ok.write.mode("overwrite").parquet("data/silver/evenements_nettoyes")
     billetterie_ok.write.mode("overwrite").parquet("data/silver/billetterie_nettoyee")
-    ventes_complete.write.mode("overwrite").parquet("data/silver/ventes_enrichies")
+    ventes_complete.write.mode("overwrite").parquet("data/silver/ventes_complete")
 
     lieux_rejets.write.mode("overwrite").parquet("data/silver/rejets/lieux")
     evenements_rejets.write.mode("overwrite").parquet("data/silver/rejets/evenements")
